@@ -1,0 +1,165 @@
+
+.logoMedium {
+    width: 200px;
+    height: auto;
+}
+
+.logoMedium img {
+    width: 100%;
+    height: 100%;
+    padding-left: 130px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topBarButton{
+    padding-right: 100px;
+}
+
+.circleButton {
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+    border: 0;
+}
+
+.membershipButton {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.accountButton {
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+    background-color: chocolate;
+    color: white;
+    border: 0;
+}
+
+
+.selectionArticles{
+    border: 2px solid red;
+    width: 900px;
+    height: 40px;
+    padding-top: 40px ;
+}
+
+.followingButton{
+    padding-left: 130px;
+    background-color: white;
+    color: gray;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.recommendedForYou{
+    color: black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0;
+}
+
+.article{
+    display: flex;
+    width: 900px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
+.articleImg{
+    width: 200px;
+    height: 133px;
+}
+
+.authorArticle{
+    display: flex;
+    justify-items: center;
+    
+}
+
+.authorArticle p{
+    height: 30px;
+}
+
+.authorArticle img{
+    width: 52px;
+    height: 52px;
+}
+
+.articleBottomInfo button{
+    border: 0;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+}
+
+.sectionTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionArticles{
+    width: 70%;
+}
+
+.rightBar{
+    width: 30%;
+}
+
+.rightBar img{
+    width: 120px;
+    height: auto;
+}
+
+.rightBar button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.recommendedButton{
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 160px;
+    align-items: center;
+}
+
+.recommendedButton :nth-child(1){
+    width: 100px;
+}
+.recommendedButton :nth-child(2){
+    width: 80px;
+}
+.recommendedButton :nth-child(3){
+    width: 90px;
+}
+.recommendedButton :nth-child(4){
+    width: 100px;
+}
+.recommendedButton :nth-child(5){
+    width: 100px;
+}
+.recommendedButton :nth-child(6){
+    width: 100px;
+}
+.recommendedButton :nth-child(7){
+    width: 60px;
+}
